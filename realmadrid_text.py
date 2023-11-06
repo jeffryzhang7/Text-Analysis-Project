@@ -10,7 +10,10 @@ import wikipediaapi
 import nltk
 from nltk.corpus import stopwords
 nltk.download('stopwords')
-wiki_wiki = wikipediaapi.Wikipedia('en')  # 'en' for English Wikipedia
+wiki_wiki = wikipediaapi.Wikipedia(
+    language='en',
+    user_agent="YourAppName/1.0 (jeffryzhang501@gmail.com)"
+)
 realmadrid_page = wiki_wiki.page("Real Madrid CF")
 if realmadrid_page.exists():
     content = realmadrid_page.text
@@ -21,3 +24,6 @@ stop_words = set(stopwords.words("english"))
 filtered_words = [word for word in words if word.lower() not in stop_words]
 filtered_text = " ".join(filtered_words)
 print(filtered_text)
+
+
+
