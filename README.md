@@ -15,8 +15,11 @@ A cosine similarity score of 0.7259178129544208 implies that the text or vectors
 #### Jose Zidane Hazard Ronaldo Fernández Calderón Raúl Madrileño
 These are the portion of the unique words that appeared only in the "realmadrid" text, I noticed that many of them are names of the legendary players who had a significant impact throughout the history of Real Madrid. Besides there isn't a lot of helpful information.
 
+![text clustering](https://github.com/OIM3640/Text-Analysis-Project/assets/143424317/525d9b8c-6991-460e-a238-8306cdfacdd4)
 
+#### 4. Reflection
 
+In my text analysis project on Real Madrid CF and FC Barcelona, I explored the rich history and intricate relationship between two of the world's foremost football clubs. As an avid soccer fan and a devoted Real Madrid supporter, this project was a personal journey. The methodologies that I applied are helpful overall, while they are somewhat superficial, I wish that I could dig into the details more in te future. 
 
 
 
