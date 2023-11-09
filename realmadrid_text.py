@@ -21,9 +21,9 @@ else:
     print("Page does not exist.")
 words = content.split()
 stop_words = set(stopwords.words("english"))
-filtered_words = [word for word in words if word.lower() not in stop_words]
-filtered_text = " ".join(filtered_words)
-print(filtered_text)
+realmadrid_words = [word for word in words if word.lower() not in stop_words]
+realmadrid_text = " ".join(realmadrid_words)
+print(realmadrid_text)
 
 
 
